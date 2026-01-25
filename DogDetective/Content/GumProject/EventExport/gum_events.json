@@ -1,0 +1,83 @@
+{
+  "UserEvents": {
+    "2acd18da37536f850527b51f7cb315471ce43749e9b3115f834661ede72e8d32": [
+      {
+        "NewName": "GameScreenGum.DialogBoxInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T16:13:58.7497624Z"
+      },
+      {
+        "NewName": "GameScreenGum.DanteThoughtsBox",
+        "OldName": "GameScreenGum.DialogBoxInstance",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T18:41:00.7481768Z"
+      },
+      {
+        "NewName": "GameScreenGum.DanteThoughtsBox1",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T18:41:04.3515484Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Controls/DialogBox DanteThoughtsBox1 in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T18:41:14.8099133Z"
+      },
+      {
+        "NewName": "GameScreenGum.dbox",
+        "OldName": "GameScreenGum.DanteThoughtsBox",
+        "ElementType": "Screens",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T18:41:20.3912832Z"
+      },
+      {
+        "NewName": "Custom/DanteThoughtsDialogBox",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T18:41:43.220159Z"
+      },
+      {
+        "NewName": "Custom/DanteThoughtsDialogBox (Container).DialogBoxInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T18:41:54.834258Z"
+      },
+      {
+        "NewName": "GameScreenGum.DanteThoughtsDialogBoxInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T18:44:10.1098638Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Controls/DialogBox dbox in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T18:44:31.0904273Z"
+      },
+      {
+        "NewName": "Controls/DialogBox (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T19:04:22.3438487Z"
+      },
+      {
+        "NewName": "MainEntranceGum.SpriteInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T19:49:51.513963Z"
+      }
+    ]
+  }
+}

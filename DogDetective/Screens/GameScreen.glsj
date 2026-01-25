@@ -1,0 +1,84 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "ReferencedFiles": [
+    {
+      "Name": "GumProject/Screens/GameScreenGum.gusx",
+      "IsSharedStatic": true,
+      "RuntimeType": "DogDetective.GumRuntimes.GameScreenGumRuntime",
+      "ProjectsToExcludeFrom": []
+    }
+  ],
+  "CustomVariables": [
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "string",
+          "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Value": "Layer",
+          "Type": "String"
+        }
+      ],
+      "Name": "DefaultLayer",
+      "Category": "Layer"
+    },
+    {
+      "Properties": [
+        {
+          "Name": "Type",
+          "Value": "Texture2D",
+          "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Value": "Texture",
+          "Type": "String"
+        }
+      ],
+      "Name": "BackgroundTexture",
+      "SourceObject": "Background",
+      "SourceObjectProperty": "Texture",
+      "Category": "Texture"
+    }
+  ],
+  "NamedObjects": [
+    {
+      "InstanceName": "Background",
+      "SourceClassType": "FlatRedBall.Sprite",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "bool"
+        }
+      ],
+      "InstructionSaves": [
+        {
+          "Type": "float",
+          "Member": "Width",
+          "Value": 1920.0,
+          "Time": 0.0
+        },
+        {
+          "Type": "float",
+          "Member": "Height",
+          "Value": 1080.0,
+          "Time": 0.0
+        }
+      ],
+      "SourceType": 2,
+      "SourceFile": "Sprite",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    }
+  ],
+  "Name": "Screens\\GameScreen",
+  "CustomClassesForExport": []
+}
