@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RollForward>Major</RollForward>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <DefineConstants>MONOGAME;DESKTOP_GL;MONOGAME_381</DefineConstants>
+    <LangVersion>default</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -143,6 +144,58 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>DanteThoughtsDialogBox</Name>
     </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\ArthursRoom.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ArthursRoom</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\DiningRoom.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DiningRoom</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\Foyer.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Foyer</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\Garden.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Garden</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\Kitchen.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Kitchen</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\LivingRoom.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>LivingRoom</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\LivingRoomNight.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>LivingRoomNight</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\MainEntrance.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MainEntrance</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\MainEntranceNight.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MainEntranceNight</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\PercivalsRoom.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PercivalsRoom</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\RoomShared.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>RoomShared</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\Study.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Study</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Rooms\SylviasRoom.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>SylviasRoom</Name>
+    </None>
     <None Include="Content\GumProject\Components\Elements\CautionLines.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>CautionLines</Name>
@@ -267,9 +320,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>GameScreenGum</Name>
     </None>
-    <None Include="Content\GumProject\Screens\MainEntranceGum.gusx">
+    <None Include="Content\GumProject\Screens\MainMenuGum.gusx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>MainEntranceGum</Name>
+      <Name>MainMenuGum</Name>
     </None>
     <None Include="Content\GumProject\Standards\Circle.gutx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -311,9 +364,57 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>UISpriteSheet</Name>
     </None>
+    <None Include="Content\Images\Character Sprites\DanteIcon\1DanteIconNeutral.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>1DanteIconNeutral</Name>
+    </None>
+    <None Include="Content\Images\Rooms\ArthursRoom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ArthursRoom</Name>
+    </None>
+    <None Include="Content\Images\Rooms\DiningRoom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DiningRoom</Name>
+    </None>
+    <None Include="Content\Images\Rooms\Foyer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Foyer</Name>
+    </None>
+    <None Include="Content\Images\Rooms\Garden.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Garden</Name>
+    </None>
+    <None Include="Content\Images\Rooms\Kitchen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Kitchen</Name>
+    </None>
+    <None Include="Content\Images\Rooms\LivingRoom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>LivingRoom</Name>
+    </None>
+    <None Include="Content\Images\Rooms\LivingRoomNight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>LivingRoomNight</Name>
+    </None>
+    <None Include="Content\Images\Rooms\MainEntranceNight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MainEntranceNight</Name>
+    </None>
     <None Include="Content\Images\Rooms\MainEntranceTexture.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>MainEntranceTexture</Name>
+    </None>
+    <None Include="Content\Images\Rooms\PercivalsRoom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PercivalsRoom</Name>
+    </None>
+    <None Include="Content\Images\Rooms\Study.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Study</Name>
+    </None>
+    <None Include="Content\Images\Rooms\SylviasRoom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>SylviasRoom</Name>
     </None>
     <None Include="Content\Images\UI\SlicedBox.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -332,8 +433,11 @@
     <Compile Include="DataTypes\TileMapInfo.Generated.cs" />
     <Compile Include="FileAliases.Generated.cs" />
     <Compile Include="Forms\Components\Custom\DanteThoughtsDialogBoxForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\Rooms\MainEntranceForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\Rooms\RoomForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\Rooms\RoomSharedForms.Generated.cs" />
     <Compile Include="Forms\Screens\GameScreenGumForms.Generated.cs" />
-    <Compile Include="Forms\Screens\MainEntranceGumForms.Generated.cs" />
+    <Compile Include="Forms\Screens\MainMenuGumForms.Generated.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Game1.Generated.cs">
       <DependentUpon>Game1.cs</DependentUpon>
@@ -531,6 +635,58 @@
     <Compile Include="GumRuntimes\Custom\DanteThoughtsDialogBoxRuntime.Generated.cs">
       <DependentUpon>DanteThoughtsDialogBoxRuntime.cs</DependentUpon>
     </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\ArthursRoomRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\ArthursRoomRuntime.Generated.cs">
+      <DependentUpon>ArthursRoomRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\DiningRoomRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\DiningRoomRuntime.Generated.cs">
+      <DependentUpon>DiningRoomRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\FoyerRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\FoyerRuntime.Generated.cs">
+      <DependentUpon>FoyerRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\GardenRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\GardenRuntime.Generated.cs">
+      <DependentUpon>GardenRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\KitchenRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\KitchenRuntime.Generated.cs">
+      <DependentUpon>KitchenRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\LivingRoomNightRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\LivingRoomNightRuntime.Generated.cs">
+      <DependentUpon>LivingRoomNightRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\LivingRoomRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\LivingRoomRuntime.Generated.cs">
+      <DependentUpon>LivingRoomRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\MainEntranceNightRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\MainEntranceNightRuntime.Generated.cs">
+      <DependentUpon>MainEntranceNightRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\MainEntranceRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\MainEntranceRuntime.Generated.cs">
+      <DependentUpon>MainEntranceRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\PercivalsRoomRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\PercivalsRoomRuntime.Generated.cs">
+      <DependentUpon>PercivalsRoomRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\RoomSharedRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\RoomSharedRuntime.Generated.cs">
+      <DependentUpon>RoomSharedRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\StudyRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\StudyRuntime.Generated.cs">
+      <DependentUpon>StudyRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Rooms\SylviasRoomRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Rooms\SylviasRoomRuntime.Generated.cs">
+      <DependentUpon>SylviasRoomRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.cs" />
     <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.Generated.cs">
       <DependentUpon>CautionLinesRuntime.cs</DependentUpon>
@@ -572,9 +728,9 @@
       <DependentUpon>GameScreenGumRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\GumIdb.Generated.cs" />
-    <Compile Include="GumRuntimes\MainEntranceGumRuntime.cs" />
-    <Compile Include="GumRuntimes\MainEntranceGumRuntime.Generated.cs">
-      <DependentUpon>MainEntranceGumRuntime.cs</DependentUpon>
+    <Compile Include="GumRuntimes\MainMenuGumRuntime.cs" />
+    <Compile Include="GumRuntimes\MainMenuGumRuntime.Generated.cs">
+      <DependentUpon>MainMenuGumRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\NineSliceRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\PolygonRuntime.Generated.cs" />
@@ -588,9 +744,9 @@
     <Compile Include="Screens\GameScreen.Generated.cs">
       <DependentUpon>GameScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Screens\MainEntrance.cs" />
-    <Compile Include="Screens\MainEntrance.Generated.cs">
-      <DependentUpon>MainEntrance.cs</DependentUpon>
+    <Compile Include="Screens\MainMenu.cs" />
+    <Compile Include="Screens\MainMenu.Generated.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Setup\CameraSetup.Generated.cs" />
     <Compile Include="TileCollisions\CollidableListVsTileShapeCollectionRelationship.Generated.cs" />

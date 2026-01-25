@@ -27,6 +27,7 @@
     <Name>SpriteInstance</Name>
     <BaseType>Sprite</BaseType>
     <DefinedByBase>false</DefinedByBase>
+    <Locked>true</Locked>
   </Instance>
   <Behaviors />
 </ScreenSave>

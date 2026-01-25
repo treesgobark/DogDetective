@@ -54,7 +54,7 @@
     "GenerateLoadGlobalContentCode": true
   },
   "SyncedProjects": [],
-  "StartUpScreen": "Screens\\MainEntrance",
+  "StartUpScreen": "Screens\\GameScreen",
   "ResolutionPresets": [],
   "PerformanceSettingsSave": {},
   "IgnoredDirectories": [],
@@ -85,7 +85,7 @@
       "Name": "Screens\\GameScreen"
     },
     {
-      "Name": "Screens\\MainEntrance"
+      "Name": "Screens\\MainMenu"
     }
   ],
   "EntityReferences": [],

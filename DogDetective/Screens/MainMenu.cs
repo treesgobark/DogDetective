@@ -19,7 +19,7 @@ using Microsoft.Xna.Framework;
 
 namespace DogDetective.Screens
 {
-    public partial class MainEntrance
+    public partial class MainMenu
     {
         private void CustomInitialize()
         {

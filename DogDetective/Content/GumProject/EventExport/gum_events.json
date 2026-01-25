@@ -77,6 +77,405 @@
         "ElementType": "Screens",
         "EventType": 5,
         "TimestampUtc": "2026-01-25T19:49:51.513963Z"
+      },
+      {
+        "NewName": "Custom/Rooms/MainEntrance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:16:21.0369522Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Room",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:16:30.955986Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Room (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:16:40.6923205Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Room (Container).DanteThoughtsDialogBoxInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:16:46.9410698Z"
+      },
+      {
+        "NewName": "Custom/Rooms/RoomShared",
+        "OldName": "Custom/Rooms/Room",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:18:44.1232723Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Room",
+        "OldName": "Custom/Rooms/RoomShared",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:21:47.8935622Z"
+      },
+      {
+        "NewName": "Custom/Rooms/RoomShared",
+        "OldName": "Custom/Rooms/Room",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:21:56.1864703Z"
+      },
+      {
+        "NewName": "Custom/Rooms/MainEntrance (Container).RoomSharedInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:22:00.2216414Z"
+      },
+      {
+        "NewName": "GameScreenGum.MainEntranceInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:22:54.963748Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/Rooms/RoomShared (Container).Custom/DanteThoughtsDialogBox DanteThoughtsDialogBoxInstance in Custom/Rooms/RoomShared (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T20:23:42.1877021Z"
+      },
+      {
+        "NewName": "GameScreenGum.DanteThoughtsDialogBoxInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:23:55.1272629Z"
+      },
+      {
+        "NewName": "Custom/Rooms/MainEntrance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:25:05.4059634Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Foyer",
+        "OldName": "Custom/Rooms/MainEntrance1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:25:09.1459546Z"
+      },
+      {
+        "NewName": "GameScreenGum.FoyerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:25:24.780793Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Foyer1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:27:14.5215859Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Foyer2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:27:15.0592075Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Foyer3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:27:15.4993104Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Foyer4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:27:15.9501013Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Foyer5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:27:16.3484896Z"
+      },
+      {
+        "NewName": "Custom/Rooms/ArthursRoom",
+        "OldName": "Custom/Rooms/Foyer1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:27:31.2430503Z"
+      },
+      {
+        "NewName": "Custom/Rooms/DiningRoom",
+        "OldName": "Custom/Rooms/Foyer2",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:27:38.2149222Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Garden",
+        "OldName": "Custom/Rooms/Foyer3",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:27:43.3856528Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Kitchen",
+        "OldName": "Custom/Rooms/Foyer4",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:27:47.0894377Z"
+      },
+      {
+        "NewName": "Custom/Rooms/LivingRoom",
+        "OldName": "Custom/Rooms/Foyer5",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:27:53.1901746Z"
+      },
+      {
+        "NewName": "Custom/Rooms/LivingRoom1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:27:55.1874394Z"
+      },
+      {
+        "NewName": "Custom/Rooms/LivingRoomNight",
+        "OldName": "Custom/Rooms/LivingRoom1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:27:58.9626751Z"
+      },
+      {
+        "NewName": "Custom/Rooms/MainEntrance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:28:05.7564553Z"
+      },
+      {
+        "NewName": "Custom/Rooms/MainEntranceNight",
+        "OldName": "Custom/Rooms/MainEntrance1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:28:09.7040953Z"
+      },
+      {
+        "NewName": "Custom/Rooms/MainEntranceNight1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:28:15.3211405Z"
+      },
+      {
+        "NewName": "Custom/Rooms/MainEntranceNight2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:28:17.6784914Z"
+      },
+      {
+        "NewName": "Custom/Rooms/MainEntranceNight3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:28:17.9096168Z"
+      },
+      {
+        "NewName": "Custom/Rooms/PercivalsRoom",
+        "OldName": "Custom/Rooms/MainEntranceNight1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:28:23.3197157Z"
+      },
+      {
+        "NewName": "Custom/Rooms/Study",
+        "OldName": "Custom/Rooms/MainEntranceNight2",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:28:27.3759205Z"
+      },
+      {
+        "NewName": "Custom/Rooms/SylviasRoom",
+        "OldName": "Custom/Rooms/MainEntranceNight3",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:28:31.4875663Z"
+      },
+      {
+        "NewName": "GameScreenGum.ArthursRoomInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:29:46.3589802Z"
+      },
+      {
+        "NewName": "GameScreenGum.DiningRoomInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:29:46.4416268Z"
+      },
+      {
+        "NewName": "GameScreenGum.GardenInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:30:02.5459749Z"
+      },
+      {
+        "NewName": "GameScreenGum.KitchenInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:30:02.6025944Z"
+      },
+      {
+        "NewName": "GameScreenGum.LivingRoomInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:30:02.6619136Z"
+      },
+      {
+        "NewName": "GameScreenGum.LivingRoomNightInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:30:02.7255204Z"
+      },
+      {
+        "NewName": "GameScreenGum.MainEntranceNightInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:30:02.8041309Z"
+      },
+      {
+        "NewName": "GameScreenGum.PercivalsRoomInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:30:02.8805249Z"
+      },
+      {
+        "NewName": "GameScreenGum.StudyInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:30:02.9564122Z"
+      },
+      {
+        "NewName": "GameScreenGum.SylviasRoomInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:30:03.0321267Z"
+      },
+      {
+        "NewName": "Custom/DanteThoughtsDialogBox (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:39:21.9190926Z"
+      },
+      {
+        "NewName": "Custom/DanteThoughtsDialogBox (Container).ContainerInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:40:17.3623211Z"
+      },
+      {
+        "NewName": "Controls/DialogBox1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T20:46:53.6198915Z"
+      },
+      {
+        "NewName": "Controls/IconDialogBox",
+        "OldName": "Controls/DialogBox1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T20:47:10.9143472Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Controls/IconDialogBox",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-25T20:47:18.8811774Z"
+      },
+      {
+        "NewName": "Controls/DialogBox (Container).ContainerInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:47:49.6251356Z"
+      },
+      {
+        "NewName": "Controls/DialogBox (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:47:55.5096149Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/DanteThoughtsDialogBox (Container).Container ContainerInstance in Custom/DanteThoughtsDialogBox (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T20:52:46.9461759Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/DanteThoughtsDialogBox (Container).Controls/DialogBox DialogBoxInstance in Custom/DanteThoughtsDialogBox (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T20:52:50.0439279Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/DanteThoughtsDialogBox (Container).Sprite SpriteInstance in Custom/DanteThoughtsDialogBox (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T20:52:58.0846071Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Custom/DanteThoughtsDialogBox DanteThoughtsDialogBoxInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T20:54:18.1476544Z"
+      },
+      {
+        "NewName": "Custom/DanteThoughtsDialogBox (Container).DialogBoxInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:55:04.8030195Z"
+      },
+      {
+        "NewName": "GameScreenGum.DanteThoughtsDialogBoxInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T20:59:18.9513635Z"
       }
     ]
   }

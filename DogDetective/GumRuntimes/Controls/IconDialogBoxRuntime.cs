@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DogDetective.GumRuntimes
+namespace DogDetective.GumRuntimes.Controls
 {
-    public partial class MainEntranceGumRuntime
+    public partial class IconDialogBoxRuntime
     {
         partial void CustomInitialize () 
         {

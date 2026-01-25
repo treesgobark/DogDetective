@@ -5,9 +5,9 @@
   "Source": "GLUE",
   "ReferencedFiles": [
     {
-      "Name": "GumProject/Screens/GameScreenGum.gusx",
+      "Name": "GumProject/Screens/MainMenuGum.gusx",
       "IsSharedStatic": true,
-      "RuntimeType": "DogDetective.GumRuntimes.GameScreenGumRuntime",
+      "RuntimeType": "DogDetective.GumRuntimes.MainMenuGumRuntime",
       "ProjectsToExcludeFrom": []
     }
   ],
@@ -29,6 +29,6 @@
       "Category": "Layer"
     }
   ],
-  "Name": "Screens\\GameScreen",
+  "Name": "Screens\\MainMenu",
   "CustomClassesForExport": []
 }
