@@ -20,6 +20,18 @@
     <None Remove="**\*.glsj" />
     <None Remove="**\*.glej" />
     <None Remove="**\*.gluj" />
+    <None Include="Content\GlobalContent\DoorClose.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DoorClose</Name>
+    </None>
+    <None Include="Content\GlobalContent\SoundEffects\CloseBook.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>CloseBook</Name>
+    </None>
+    <None Include="Content\GlobalContent\SoundEffects\OpenBook.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>OpenBook</Name>
+    </None>
     <None Include="Content\GumProject\Components\Controls\ButtonClose.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>ButtonClose</Name>
@@ -35,6 +47,10 @@
     <None Include="Content\GumProject\Components\Controls\ButtonIcon.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>ButtonIcon</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Controls\ButtonSprite.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ButtonSprite</Name>
     </None>
     <None Include="Content\GumProject\Components\Controls\ButtonStandard.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -195,6 +211,38 @@
     <None Include="Content\GumProject\Components\Custom\Rooms\SylviasRoom.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>SylviasRoom</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\Clues\CluesButton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>CluesButton</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\Clues\CluesPanel.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>CluesPanel</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\Dogs\DogsPanel.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DogsPanel</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\JournalBackground.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>JournalBackground</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\Main\MainUiPanel.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MainUiPanel</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\Main\MainUiPanelButton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MainUiPanelButton</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\Map\MapButton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MapButton</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\Map\MapPanel.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MapPanel</Name>
     </None>
     <None Include="Content\GumProject\Components\Elements\CautionLines.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -368,6 +416,62 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>1DanteIconNeutral</Name>
     </None>
+    <None Include="Content\Images\Clues\ClueBook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ClueBook</Name>
+    </None>
+    <None Include="Content\Images\Clues\Knife.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Knife</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Bloody Kitchen Knife.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Bloody Kitchen Knife</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Arthur's Room.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Arthur's Room</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Dining Room.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Dining Room</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Foyer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Foyer</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Garden.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Garden</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Kitchen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Kitchen</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Living Room.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Living Room</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\MainEntrance.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MainEntrance</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Map Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Map Background</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Master Bedroom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Master Bedroom</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Percival's Room.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Percival's Room</Name>
+    </None>
+    <None Include="Content\Images\Map Stuff\Study.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Study</Name>
+    </None>
     <None Include="Content\Images\Rooms\ArthursRoom.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>ArthursRoom</Name>
@@ -416,6 +520,90 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>SylviasRoom</Name>
     </None>
+    <None Include="Content\Images\Suspects\Details\Arthur Airedale Clue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Arthur Airedale Clue</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Details\Beatrice Borzoi Clue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Beatrice Borzoi Clue</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Details\Dante Doodle Clue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Dante Doodle Clue</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Details\Dimitri Dane Clue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Dimitri Dane Clue</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Details\Gatsby Gold Clue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Gatsby Gold Clue</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Details\Pauline Pinscher Clue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Pauline Pinscher Clue</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Details\Percival Poodle Clue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Percival Poodle Clue</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Details\Sylvia Spaniel Clue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Sylvia Spaniel Clue</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Doodles\Arthur Airedale.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Arthur Airedale</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Doodles\Beatrice Borzoi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Beatrice Borzoi</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Doodles\Dante Doodle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Dante Doodle</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Doodles\Dimitri Dane.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Dimitri Dane</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Doodles\Gatsby Gold.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Gatsby Gold</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Doodles\Pauline Pinscher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Pauline Pinscher</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Doodles\Percival Poodle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Percival Poodle</Name>
+    </None>
+    <None Include="Content\Images\Suspects\Doodles\Sylvia Spaniel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Sylvia Spaniel</Name>
+    </None>
+    <None Include="Content\Images\UI\BackButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>BackButton</Name>
+    </None>
+    <None Include="Content\Images\UI\BlankButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>BlankButton</Name>
+    </None>
+    <None Include="Content\Images\UI\CluesButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>CluesButton</Name>
+    </None>
+    <None Include="Content\Images\UI\Cursor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Cursor</Name>
+    </None>
+    <None Include="Content\Images\UI\MapButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MapButton</Name>
+    </None>
     <None Include="Content\Images\UI\SlicedBox.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>SlicedBox</Name>
@@ -428,6 +616,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>SlicedBox25</Name>
     </None>
+    <None Include="Content\Images\UI\SuspectsButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>SuspectsButton</Name>
+    </None>
+    <None Include="Content\Sounds\TurnPage.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TurnPage</Name>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataTypes\TileMapInfo.Generated.cs" />
@@ -436,6 +632,11 @@
     <Compile Include="Forms\Components\Custom\Rooms\MainEntranceForms.Generated.cs" />
     <Compile Include="Forms\Components\Custom\Rooms\RoomForms.Generated.cs" />
     <Compile Include="Forms\Components\Custom\Rooms\RoomSharedForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\UI\Clues\CluesPanelForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\UI\Dogs\DogsPanelForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\UI\Main\MainUiPanelButtonForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\UI\Main\MainUiPanelForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\UI\Map\MapPanelForms.Generated.cs" />
     <Compile Include="Forms\Screens\GameScreenGumForms.Generated.cs" />
     <Compile Include="Forms\Screens\MainMenuGumForms.Generated.cs" />
     <Compile Include="Game1.cs" />
@@ -526,6 +727,10 @@
     <Compile Include="GumRuntimes\Controls\ButtonIconRuntime.cs" />
     <Compile Include="GumRuntimes\Controls\ButtonIconRuntime.Generated.cs">
       <DependentUpon>ButtonIconRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Controls\ButtonSpriteRuntime.cs" />
+    <Compile Include="GumRuntimes\Controls\ButtonSpriteRuntime.Generated.cs">
+      <DependentUpon>ButtonSpriteRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\Controls\ButtonStandardIconRuntime.cs" />
     <Compile Include="GumRuntimes\Controls\ButtonStandardIconRuntime.Generated.cs">
@@ -686,6 +891,38 @@
     <Compile Include="GumRuntimes\Custom\Rooms\SylviasRoomRuntime.cs" />
     <Compile Include="GumRuntimes\Custom\Rooms\SylviasRoomRuntime.Generated.cs">
       <DependentUpon>SylviasRoomRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\Clues\CluesButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\Clues\CluesButtonRuntime.Generated.cs">
+      <DependentUpon>CluesButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\Clues\CluesPanelRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\Clues\CluesPanelRuntime.Generated.cs">
+      <DependentUpon>CluesPanelRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\Dogs\DogsPanelRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\Dogs\DogsPanelRuntime.Generated.cs">
+      <DependentUpon>DogsPanelRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\JournalBackgroundRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\JournalBackgroundRuntime.Generated.cs">
+      <DependentUpon>JournalBackgroundRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\Main\MainUiPanelButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\Main\MainUiPanelButtonRuntime.Generated.cs">
+      <DependentUpon>MainUiPanelButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\Main\MainUiPanelRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\Main\MainUiPanelRuntime.Generated.cs">
+      <DependentUpon>MainUiPanelRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\Map\MapButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\Map\MapButtonRuntime.Generated.cs">
+      <DependentUpon>MapButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\Map\MapPanelRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\Map\MapPanelRuntime.Generated.cs">
+      <DependentUpon>MapPanelRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.cs" />
     <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.Generated.cs">

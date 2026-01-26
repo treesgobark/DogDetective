@@ -476,6 +476,1581 @@
         "ElementType": "Screens",
         "EventType": 5,
         "TimestampUtc": "2026-01-25T20:59:18.9513635Z"
+      },
+      {
+        "NewName": "Custom/UI",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T21:16:14.9790725Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-25T21:16:23.8378426Z"
+      },
+      {
+        "NewName": "Custom/UI/MapPanel",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T21:16:43.1987635Z"
+      },
+      {
+        "NewName": "Custom/UI/MapPanel (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:16:53.3243239Z"
+      },
+      {
+        "NewName": "Custom/UI/MapPanel (Container).RectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:17:37.1820382Z"
+      },
+      {
+        "NewName": "Custom/UI/MapPanel (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:17:54.024579Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/MapPanel (Container).Rectangle RectangleInstance in Custom/UI/MapPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:17:55.9990067Z"
+      },
+      {
+        "NewName": "Custom/UI/JournalBackground",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T21:19:45.0839067Z"
+      },
+      {
+        "NewName": "Custom/UI/JournalBackground (Container).ColoredRectangleInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:19:47.0854421Z"
+      },
+      {
+        "NewName": "Custom/UI/JournalBackground (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:19:49.3785697Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/MapPanel (Container).ColoredRectangle ColoredRectangleInstance in Custom/UI/MapPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:20:08.6573604Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/MapPanel (Container).Sprite SpriteInstance in Custom/UI/MapPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:20:08.6579309Z"
+      },
+      {
+        "NewName": "Custom/UI/MapPanel (Container).JournalBackgroundInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:20:10.9497272Z"
+      },
+      {
+        "NewName": "Custom/UI/MapPanel (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:20:32.3145271Z"
+      },
+      {
+        "NewName": "Custom/UI/MapPanel (Container).SpriteInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:22:57.1467472Z"
+      },
+      {
+        "NewName": "Custom/UI/MapPanel (Container).MapBackground",
+        "OldName": "Custom/UI/MapPanel (Container).SpriteInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:23:59.921934Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel",
+        "OldName": "Custom/UI/MapPanel",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T21:25:07.43047Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T21:25:13.9957019Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapButton (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:25:23.7087267Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Map/MapPanel (Container).Sprite SpriteInstance in Custom/UI/Map/MapPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:26:26.2302422Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).MapButtonInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:26:27.9476224Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).MapButtonInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:28:31.4010415Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:28:58.3616428Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:29:01.5557011Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:29:01.9339568Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:29:05.0677064Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:29:05.5856691Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:29:05.9614602Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton7",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:29:06.3722921Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton8",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:29:06.7356Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).DiningRoomButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:29:43.9663258Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).FoyerButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:29:55.1856777Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).GardenButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton3",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:30:53.6458082Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).KitchenButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton4",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:31:00.5185858Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).LivingRoomButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton5",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:31:07.1655989Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).MasterBedroomButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton6",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:31:14.0294403Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).PercivalsRoomButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton7",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:31:20.6614296Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).StudyButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).ArthursRoomButton8",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:31:26.5476565Z"
+      },
+      {
+        "NewName": "GameScreenGum.MapPanelInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:32:43.9541458Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T21:34:42.6612777Z"
+      },
+      {
+        "NewName": "GameScreenGum.MainUiPanelInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:34:47.5848751Z"
+      },
+      {
+        "NewName": "GameScreenGum.RoomContainer",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:35:31.4520531Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).ButtonIconInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:41:34.7297974Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).ButtonIconInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:42:15.621267Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:42:18.8534313Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).CluesButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:42:23.4994459Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).CluesButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:42:24.9642121Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).DogsButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).CluesButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:42:28.9881625Z"
+      },
+      {
+        "NewName": "Controls/ButtonIcon1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T21:43:23.0441587Z"
+      },
+      {
+        "NewName": "Controls/ButtonCustomIcon",
+        "OldName": "Controls/ButtonIcon1",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T21:43:31.4060276Z"
+      },
+      {
+        "NewName": "Controls/ButtonCustomIcon (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:44:25.2254998Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Controls/ButtonCustomIcon (Container).NineSlice Background in Controls/ButtonCustomIcon (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:44:49.6853647Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Controls/ButtonCustomIcon (Container).Elements/Icon Icon in Controls/ButtonCustomIcon (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:44:49.6859245Z"
+      },
+      {
+        "NewName": "Controls/ButtonSprite",
+        "OldName": "Controls/ButtonCustomIcon",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T21:44:58.3692358Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanelButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T21:46:49.2814097Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanelButton (Container).ButtonSpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:46:54.1623296Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).Controls/ButtonSprite MapButton in Custom/UI/Main/MainUiPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:47:14.8272179Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).Controls/ButtonIcon CluesButton in Custom/UI/Main/MainUiPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:47:14.827792Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).Controls/ButtonIcon DogsButton in Custom/UI/Main/MainUiPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:47:14.8283068Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).ButtonSpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:47:16.7937955Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).Controls/ButtonSprite ButtonSpriteInstance in Custom/UI/Main/MainUiPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:47:23.7562521Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MainUiPanelButtonInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:47:36.7133669Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).Container",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:50:08.9513539Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MainUiPanelButtonInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:51:27.7556988Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).Custom/UI/Main/MainUiPanelButton MainUiPanelButtonInstance1 in Custom/UI/Main/MainUiPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:51:37.82771Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MainUiPanelButtonInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:52:05.723332Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MainUiPanelButtonInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T21:52:23.3669878Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MainUiPanelButtonInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:52:27.1862307Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).CluesButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MainUiPanelButtonInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:52:33.2713617Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).DogsButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MainUiPanelButtonInstance2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T21:52:36.6540423Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).Container Container in Custom/UI/Main/MainUiPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T21:53:44.4990009Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).kek",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).DogsButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:08:14.0942608Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).DogsButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:08:19.660393Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).kek",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:08:24.2923693Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T22:12:14.9745034Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).BackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:12:21.0678121Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).BackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:12:21.0683931Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).BackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:12:21.0688971Z"
+      },
+      {
+        "NewName": "ActiveMenu",
+        "OldName": "ActiveManu",
+        "ElementType": "Screens",
+        "EventType": 4,
+        "TimestampUtc": "2026-01-25T22:13:39.3287636Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).MainEntranceButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T22:21:23.0372744Z"
+      },
+      {
+        "NewName": "GameScreenGum.MainUiPanelButtonInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T22:33:44.6664235Z"
+      },
+      {
+        "NewName": "GameScreenGum.ButtonSpriteInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T22:35:44.0966655Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Controls/ButtonSprite ButtonSpriteInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T22:41:00.2256513Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "GameScreenGum.Custom/UI/Main/MainUiPanelButton MainUiPanelButtonInstance in GameScreenGum",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-25T22:41:00.226461Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).BackButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:21.6193866Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).BackButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:21.6199725Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).BackButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:21.6205019Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T22:59:23.7806258Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:31.4657308Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:31.4666407Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:31.4674312Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T22:59:32.7679939Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).DogsBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:37.2368607Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).DogsBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:37.2374021Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).DogsBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T22:59:37.2378862Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T23:02:53.2714693Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T23:02:56.6926005Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).JournalBackgroundInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T23:03:20.2941759Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).JournalBackgroundInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T23:03:21.0779099Z"
+      },
+      {
+        "NewName": "GameScreenGum.CluesPanelInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T23:04:01.3903923Z"
+      },
+      {
+        "NewName": "GameScreenGum.DogsPanelInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T23:04:03.2728017Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/ClueButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T23:05:18.3461434Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Clues/ClueButton",
+        "ElementType": "Components",
+        "EventType": 1,
+        "TimestampUtc": "2026-01-25T23:05:22.5919896Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/MapButton",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 0,
+        "TimestampUtc": "2026-01-25T23:05:24.6414275Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesButton",
+        "OldName": "Custom/UI/Clues/MapButton",
+        "ElementType": "Components",
+        "EventType": 2,
+        "TimestampUtc": "2026-01-25T23:05:33.0412228Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).CluesButtonInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-25T23:05:40.4455304Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).CluesButtonInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-25T23:06:16.0666471Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:37:47.791346Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:38:54.0547532Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).Arthur",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:38:57.4130677Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurButton",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).Arthur",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:39:01.2617631Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:39:16.5582166Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:39:18.7354329Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:39:25.4858369Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:39:25.8002508Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:39:26.1904591Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:39:26.6548568Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:39:46.0111585Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).Sprite BeatriceButton6 in Custom/UI/Dogs/DogsPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-26T02:39:47.1039639Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:39:48.1685767Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DanteButton",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:42:25.2497174Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriButton",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:42:32.5614303Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyButton",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton3",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:42:37.3348936Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineButton",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton4",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:42:41.5091271Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalButton",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton5",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:42:47.3039904Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaButton",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceButton6",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:42:51.7117832Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ButtonContainer",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:43:30.1531663Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:44:24.8709569Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:46:36.6791628Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.7579373Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.758843Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.7594128Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.7599909Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.7605386Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.7610615Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.7616379Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.762275Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.7629285Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:46:41.7636605Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:46:44.7553525Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DanteDetails2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:46:52.0890127Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).Container DanteDetails1 in Custom/UI/Dogs/DogsPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-26T02:47:17.5058009Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:47:22.5134614Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0256654Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0265421Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.027255Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0278789Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0287241Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0293714Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0300358Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0306562Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0312728Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).ArthurDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:35.0319797Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:47:36.9337753Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2261206Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2267788Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2273806Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.22797Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2285551Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2292067Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2298517Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2305133Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2311364Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).BeatriceDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:46.2317545Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:47:48.6826832Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2320904Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2329652Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2336927Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2345393Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2354381Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2361158Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.236925Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2376058Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2384265Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).DimitriDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:53.2392959Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:47:55.1795581Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.9448645Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.945612Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.9462038Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.9468239Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.9475445Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.948446Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.9490737Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.9497416Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.9504137Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).GatsbyDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:47:58.9510373Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:48:00.2424432Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1732405Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1739854Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1746295Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1752643Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1758575Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1764731Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1770599Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1776474Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1782598Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PaulineDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:04.1788345Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:48:05.3128953Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.8297048Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.8303884Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.831051Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.8316798Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.8323763Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.833076Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.83385Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.8346555Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.8353907Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SylviaDetails",
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).PercivalDetails1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T02:48:09.8360909Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).Container DanteDetails2 in Custom/UI/Dogs/DogsPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-26T02:49:53.3795565Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:52:44.712383Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:54:04.6381911Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:54:05.7964106Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:54:06.4843814Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:54:07.3955018Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:54:08.1858819Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:54:08.9958314Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).SpriteInstance7",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:54:09.7802329Z"
+      },
+      {
+        "NewName": "Custom/UI/Dogs/DogsPanel (Container).MainUiPanelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T02:56:59.7830359Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).MainUiPanelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T03:11:24.4236328Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).MainUiPanelInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T03:11:51.6975267Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Map/MapPanel (Container).Custom/UI/JournalBackground JournalBackgroundInstance in Custom/UI/Map/MapPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-26T03:13:29.6263641Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).JournalBackgroundInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T03:13:34.5754746Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).StudyButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T03:16:52.7186842Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Map/MapPanel (Container).Container MainEntranceButton in Custom/UI/Map/MapPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-26T03:16:56.7052572Z"
+      },
+      {
+        "NewName": "Custom/UI/Map/MapPanel (Container).MainEntranceButton",
+        "OldName": "Custom/UI/Map/MapPanel (Container).StudyButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T03:17:01.375463Z"
       }
     ]
   }

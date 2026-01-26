@@ -4,14 +4,27 @@
   <State>
     <Name>Default</Name>
     <Variable>
+      <Type>ActiveMenu</Type>
+      <Name>ActiveMenuState</Name>
+      <Value xsi:type="xsd:string">None</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ArthursRoomInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>bool</Type>
-      <Name>ArthursRoomInstance.Visible</Name>
+      <Name>CluesPanelInstance.Visible</Name>
       <Value xsi:type="xsd:boolean">false</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>CurrentRoom</Type>
       <Name>CurrentRoomState</Name>
+      <Value xsi:type="xsd:string">MainEntrance</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -27,69 +40,158 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>DiningRoomInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>string</Type>
+      <Name>DiningRoomInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>bool</Type>
-      <Name>FoyerInstance.Visible</Name>
+      <Name>DogsPanelInstance.Visible</Name>
       <Value xsi:type="xsd:boolean">false</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>GardenInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>string</Type>
+      <Name>FoyerInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>GardenInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>KitchenInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>LivingRoomInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>LivingRoomNightInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>MainEntranceInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>MainEntranceNightInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>MainUiPanelInstance.X</Name>
+      <Value xsi:type="xsd:float">16</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>MainUiPanelInstance.Y</Name>
+      <Value xsi:type="xsd:float">16</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>bool</Type>
-      <Name>KitchenInstance.Visible</Name>
+      <Name>MapPanelInstance.Visible</Name>
       <Value xsi:type="xsd:boolean">false</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>LivingRoomInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>string</Type>
+      <Name>PercivalsRoomInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>LivingRoomNightInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>float</Type>
+      <Name>RoomContainer.Height</Name>
+      <Value xsi:type="xsd:float">-0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>MainEntranceInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>DimensionUnitType</Type>
+      <Name>RoomContainer.HeightUnits</Name>
+      <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>MainEntranceNightInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>string</Type>
+      <Name>RoomContainer.Parent</Name>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>PercivalsRoomInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>float</Type>
+      <Name>RoomContainer.Width</Name>
+      <Value xsi:type="xsd:float">-0</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>StudyInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>DimensionUnitType</Type>
+      <Name>RoomContainer.WidthUnits</Name>
+      <Value xsi:type="xsd:int">2</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>bool</Type>
-      <Name>SylviasRoomInstance.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Type>float</Type>
+      <Name>RoomContainer.X</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>RoomContainer.XOrigin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>RoomContainer.XUnits</Name>
+      <Value xsi:type="xsd:int">6</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>RoomContainer.Y</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>VerticalAlignment</Type>
+      <Name>RoomContainer.YOrigin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>RoomContainer.YUnits</Name>
+      <Value xsi:type="xsd:int">7</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>StudyInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>SylviasRoomInstance.Parent</Name>
+      <Value xsi:type="xsd:string">RoomContainer</Value>
       <SetsValue>true</SetsValue>
     </Variable>
   </State>
@@ -996,6 +1098,141 @@
       </Variable>
     </State>
   </Category>
+  <Category>
+    <Name>ActiveMenu</Name>
+    <State>
+      <Name>None</Name>
+      <Variable>
+        <Type>bool</Type>
+        <Name>CluesPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>DogsPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>Main</Type>
+        <Name>MainUiPanelInstance.MainState</Name>
+        <Value xsi:type="xsd:string">Default</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>MainUiPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">true</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>MapPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
+      <Name>Map</Name>
+      <Variable>
+        <Type>bool</Type>
+        <Name>CluesPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>DogsPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>Main</Type>
+        <Name>MainUiPanelInstance.MainState</Name>
+        <Value xsi:type="xsd:string">Map</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>MapPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">true</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>MainUiPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
+      <Name>Clues</Name>
+      <Variable>
+        <Type>bool</Type>
+        <Name>CluesPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">true</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>DogsPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>Main</Type>
+        <Name>MainUiPanelInstance.MainState</Name>
+        <Value xsi:type="xsd:string">Clues</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>MapPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>MainUiPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+    <State>
+      <Name>Dogs</Name>
+      <Variable>
+        <Type>bool</Type>
+        <Name>CluesPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>DogsPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">true</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>Main</Type>
+        <Name>MainUiPanelInstance.MainState</Name>
+        <Value xsi:type="xsd:string">Dogs</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>MapPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>bool</Type>
+        <Name>MainUiPanelInstance.Visible</Name>
+        <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+    </State>
+  </Category>
   <Instance>
     <Name>ArthursRoomInstance</Name>
     <BaseType>Custom/Rooms/ArthursRoom</BaseType>
@@ -1067,6 +1304,31 @@
     <BaseType>Custom/Rooms/SylviasRoom</BaseType>
     <DefinedByBase>false</DefinedByBase>
     <Locked>true</Locked>
+  </Instance>
+  <Instance>
+    <Name>RoomContainer</Name>
+    <BaseType>Container</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>MapPanelInstance</Name>
+    <BaseType>Custom/UI/Map/MapPanel</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>CluesPanelInstance</Name>
+    <BaseType>Custom/UI/Clues/CluesPanel</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>DogsPanelInstance</Name>
+    <BaseType>Custom/UI/Dogs/DogsPanel</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>MainUiPanelInstance</Name>
+    <BaseType>Custom/UI/Main/MainUiPanel</BaseType>
+    <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
     <Name>DanteThoughtsDialogBoxInstance</Name>
