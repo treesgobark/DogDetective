@@ -18,8 +18,9 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>string</Type>
-      <Name>CluesButton.Parent</Name>
+      <Type>bool</Type>
+      <Name>CluesBackButton.Visible</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -37,8 +38,9 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>string</Type>
-      <Name>DogsButton.Parent</Name>
+      <Type>bool</Type>
+      <Name>DogsBackButton.Visible</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -73,8 +75,9 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>string</Type>
-      <Name>MapButton.Parent</Name>
+      <Type>bool</Type>
+      <Name>MapBackButton.Visible</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -204,7 +207,6 @@
         <Type>bool</Type>
         <Name>MapButton.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
-        <Category>States and Visibility</Category>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>
@@ -292,17 +294,12 @@
     </State>
   </Category>
   <Instance>
-    <Name>MapBackButton</Name>
-    <BaseType>Custom/UI/Main/MainUiPanelButton</BaseType>
-    <DefinedByBase>false</DefinedByBase>
-  </Instance>
-  <Instance>
     <Name>MapButton</Name>
     <BaseType>Custom/UI/Main/MainUiPanelButton</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
-    <Name>CluesBackButton</Name>
+    <Name>MapBackButton</Name>
     <BaseType>Custom/UI/Main/MainUiPanelButton</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
@@ -312,12 +309,17 @@
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
-    <Name>DogsBackButton</Name>
+    <Name>CluesBackButton</Name>
     <BaseType>Custom/UI/Main/MainUiPanelButton</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>
     <Name>DogsButton</Name>
+    <BaseType>Custom/UI/Main/MainUiPanelButton</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
+  <Instance>
+    <Name>DogsBackButton</Name>
     <BaseType>Custom/UI/Main/MainUiPanelButton</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>

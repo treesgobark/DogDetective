@@ -1,3 +1,4 @@
+using System.Linq;
 using FlatRedBall.Gui;
 using FlatRedBall.Input;
 using Microsoft.Xna.Framework.Input;
@@ -30,13 +31,41 @@ public partial class GameScreen
             ActiveDebugger--;
         }
 
-        if (ActiveDebugger == 0)
+        if (InputManager.Keyboard.KeyPushed(Keys.H))
         {
-            Debugger.CommandLineWrite(Cursor.Main.WindowOver);
+            GumScreen.MainUiPanelInstance.DogsButton.Visible = !GumScreen.MainUiPanelInstance.DogsButton.Visible;
         }
-        else if (ActiveDebugger == 1)
+
+        if (InputManager.Keyboard.KeyPushed(Keys.J))
         {
-            Debugger.CommandLineWrite($"{GumScreen.MainUiPanelInstance.DogsButton.GetAbsoluteWidth()}, {GumScreen.MainUiPanelInstance.DogsButton.GetAbsoluteHeight()}");
+            GumScreen.MainUiPanelInstance.DogsBackButton.Visible = !GumScreen.MainUiPanelInstance.DogsBackButton.Visible;
+        }
+
+        IWindow? window = Cursor.Main.WindowOver;
+        switch (ActiveDebugger)
+        {
+            case 1:
+                Debugger.CommandLineWrite($"{window}: {window?.Visible}, {window?.X}, {window?.Y}");
+                break;
+            case 2:
+                Debugger.CommandLineWrite(
+                    $"[{GumScreen.MainUiPanelInstance.MapButton.GetAbsoluteWidth()}, {GumScreen.MainUiPanelInstance.MapButton.GetAbsoluteHeight()}], "             +
+                    $"[{GumScreen.MainUiPanelInstance.MapBackButton.GetAbsoluteWidth()}, {GumScreen.MainUiPanelInstance.MapBackButton.GetAbsoluteHeight()}], "     +
+                    $"[{GumScreen.MainUiPanelInstance.CluesButton.GetAbsoluteWidth()}, {GumScreen.MainUiPanelInstance.CluesButton.GetAbsoluteHeight()}], "         +
+                    $"[{GumScreen.MainUiPanelInstance.CluesBackButton.GetAbsoluteWidth()}, {GumScreen.MainUiPanelInstance.CluesBackButton.GetAbsoluteHeight()}], " +
+                    $"[{GumScreen.MainUiPanelInstance.DogsButton.GetAbsoluteWidth()}, {GumScreen.MainUiPanelInstance.DogsButton.GetAbsoluteHeight()}], "           +
+                    $"[{GumScreen.MainUiPanelInstance.DogsBackButton.GetAbsoluteWidth()}, {GumScreen.MainUiPanelInstance.DogsBackButton.GetAbsoluteHeight()}], "   +
+                    $"");
+                break;
+            case 3:
+                Debugger.CommandLineWrite($"{GumScreen.MainUiPanelInstance.MapButton.Visible}, "       +
+                                          $"{GumScreen.MainUiPanelInstance.MapBackButton.Visible}, "   +
+                                          $"{GumScreen.MainUiPanelInstance.CluesButton.Visible}, "     +
+                                          $"{GumScreen.MainUiPanelInstance.CluesBackButton.Visible}, " +
+                                          $"{GumScreen.MainUiPanelInstance.DogsButton.Visible}, "      +
+                                          $"{GumScreen.MainUiPanelInstance.DogsBackButton.Visible}, "  +
+                                          $"");
+                break;
         }
     }
 

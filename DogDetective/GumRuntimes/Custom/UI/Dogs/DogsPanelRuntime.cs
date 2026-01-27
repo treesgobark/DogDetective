@@ -12,8 +12,17 @@ public partial class DogsPanelRuntime
             {
                 AudioManager.Play(GlobalContent.TurnPage);
             }
-
-            // PreviousActiveCluesPageState = CurrentActiveDogPageState;
         };
+
+        DogsPageInstance.ArthurButtonClick   += _ => CurrentActiveDogPageState = ActiveDogPage.Arthur;
+        DogsPageInstance.BeatriceButtonClick += _ => CurrentActiveDogPageState = ActiveDogPage.Beatrice;
+        DogsPageInstance.DanteButtonClick    += _ => CurrentActiveDogPageState = ActiveDogPage.Dante;
+        DogsPageInstance.DimitriButtonClick  += _ => CurrentActiveDogPageState = ActiveDogPage.Dimitri;
+        DogsPageInstance.GatsbyButtonClick   += _ => CurrentActiveDogPageState = ActiveDogPage.Gatsby;
+        DogsPageInstance.PaulineButtonClick  += _ => CurrentActiveDogPageState = ActiveDogPage.Pauline;
+        DogsPageInstance.PercivalButtonClick += _ => CurrentActiveDogPageState = ActiveDogPage.Percival;
+        DogsPageInstance.SylviaButtonClick   += _ => CurrentActiveDogPageState = ActiveDogPage.Sylvia;
+        
+        BookBackButtonInstanceClick += _ => CurrentActiveDogPageState = ActiveDogPage.None;
     }
 }

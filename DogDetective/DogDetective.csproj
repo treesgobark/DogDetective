@@ -8,6 +8,7 @@
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <DefineConstants>MONOGAME;DESKTOP_GL;MONOGAME_381</DefineConstants>
     <LangVersion>default</LangVersion>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -28,9 +29,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>CloseBook</Name>
     </None>
+    <None Include="Content\GlobalContent\SoundEffects\HoverDrawing.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>HoverDrawing</Name>
+    </None>
     <None Include="Content\GlobalContent\SoundEffects\OpenBook.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>OpenBook</Name>
+    </None>
+    <None Include="Content\GlobalContent\SoundEffects\TurnPage.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TurnPage</Name>
     </None>
     <None Include="Content\GumProject\Components\Controls\ButtonClose.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -212,17 +221,69 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>SylviasRoom</Name>
     </None>
-    <None Include="Content\GumProject\Components\Custom\UI\Clues\CluesButton.gucx">
+    <None Include="Content\GumProject\Components\Custom\UI\BookBackButton.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>CluesButton</Name>
+      <Name>BookBackButton</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\BookText.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>BookText</Name>
     </None>
     <None Include="Content\GumProject\Components\Custom\UI\Clues\CluesPanel.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>CluesPanel</Name>
     </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DetailsPages\ArthurDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>ArthurDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DetailsPages\BeatriceDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>BeatriceDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DetailsPages\DanteDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DanteDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DetailsPages\DimitriDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DimitriDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DetailsPages\GatsbyDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>GatsbyDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DetailsPages\PaulineDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PaulineDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DetailsPages\PercivalDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PercivalDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DetailsPages\SylviaDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>SylviaDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DogDetails.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DogDetails</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\Ui\Dogs\DogsHubPage.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DogsHubPage</Name>
+    </None>
     <None Include="Content\GumProject\Components\Custom\UI\Dogs\DogsPanel.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>DogsPanel</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\Dogs\TestComponent.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>TestComponent</Name>
+    </None>
+    <None Include="Content\GumProject\Components\Custom\UI\DrawingButton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>DrawingButton</Name>
     </None>
     <None Include="Content\GumProject\Components\Custom\UI\JournalBackground.gucx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -424,9 +485,37 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>1DanteIconNeutral</Name>
     </None>
+    <None Include="Content\Images\Clues\Bloodstains.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Bloodstains</Name>
+    </None>
+    <None Include="Content\Images\Clues\Book.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Book</Name>
+    </None>
+    <None Include="Content\Images\Clues\Cloth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Cloth</Name>
+    </None>
     <None Include="Content\Images\Clues\ClueBook.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>ClueBook</Name>
+    </None>
+    <None Include="Content\Images\Clues\Envelope.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Envelope</Name>
+    </None>
+    <None Include="Content\Images\Clues\File.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>File</Name>
+    </None>
+    <None Include="Content\Images\Clues\Foxglove.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Foxglove</Name>
+    </None>
+    <None Include="Content\Images\Clues\Glass.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Glass</Name>
     </None>
     <None Include="Content\Images\Clues\Knife.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -471,6 +560,14 @@
     <None Include="Content\Images\Clues\Menu Buttons\Gatsby's Wound Photo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Gatsby's Wound Photo</Name>
+    </None>
+    <None Include="Content\Images\Clues\Page.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Page</Name>
+    </None>
+    <None Include="Content\Images\Clues\Wound.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Wound</Name>
     </None>
     <None Include="Content\Images\Map Stuff\Arthur's Room.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -628,6 +725,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Sylvia Spaniel</Name>
     </None>
+    <None Include="Content\Images\UI\BackArrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>BackArrow</Name>
+    </None>
     <None Include="Content\Images\UI\BackButton.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>BackButton</Name>
@@ -656,6 +757,22 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>MapExitButton</Name>
     </None>
+    <None Include="Content\Images\UI\NewPageCorner1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>NewPageCorner1</Name>
+    </None>
+    <None Include="Content\Images\UI\NewPageCorner2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>NewPageCorner2</Name>
+    </None>
+    <None Include="Content\Images\UI\PageCorner.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PageCorner</Name>
+    </None>
+    <None Include="Content\Images\UI\PageCornerSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>PageCornerSmall</Name>
+    </None>
     <None Include="Content\Images\UI\SlicedBox.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>SlicedBox</Name>
@@ -676,10 +793,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>SuspectsExitButton</Name>
     </None>
-    <None Include="Content\Sounds\TurnPage.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>TurnPage</Name>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataTypes\TileMapInfo.Generated.cs" />
@@ -689,6 +802,7 @@
     <Compile Include="Forms\Components\Custom\Rooms\RoomForms.Generated.cs" />
     <Compile Include="Forms\Components\Custom\Rooms\RoomSharedForms.Generated.cs" />
     <Compile Include="Forms\Components\Custom\UI\Clues\CluesPanelForms.Generated.cs" />
+    <Compile Include="Forms\Components\Custom\Ui\Dogs\DogsHubPageForms.Generated.cs" />
     <Compile Include="Forms\Components\Custom\UI\Dogs\DogsPanelForms.Generated.cs" />
     <Compile Include="Forms\Components\Custom\UI\Main\MainUiPanelButtonForms.Generated.cs" />
     <Compile Include="Forms\Components\Custom\UI\Main\MainUiPanelForms.Generated.cs" />
@@ -745,6 +859,7 @@
     <Compile Include="GumRuntimes\Behaviors\ICheckBoxBehavior.Generated.cs" />
     <Compile Include="GumRuntimes\Behaviors\IComboBoxBehavior.Generated.cs" />
     <Compile Include="GumRuntimes\Behaviors\IDialogBoxBehavior.Generated.cs" />
+    <Compile Include="GumRuntimes\Behaviors\IDogDetailsBehavior.Generated.cs" />
     <Compile Include="GumRuntimes\Behaviors\IInputDeviceSelectionItemBehavior.Generated.cs" />
     <Compile Include="GumRuntimes\Behaviors\IInputDeviceSelectorBehavior.Generated.cs" />
     <Compile Include="GumRuntimes\Behaviors\ILabelBehavior.Generated.cs" />
@@ -768,130 +883,40 @@
     <Compile Include="GumRuntimes\CircleRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\ColoredRectangleRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\ContainerRuntime.Generated.cs" />
-    <Compile Include="GumRuntimes\Controls\ButtonCloseRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ButtonCloseRuntime.Generated.cs">
-      <DependentUpon>ButtonCloseRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ButtonConfirmRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ButtonConfirmRuntime.Generated.cs">
-      <DependentUpon>ButtonConfirmRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ButtonDenyRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ButtonDenyRuntime.Generated.cs">
-      <DependentUpon>ButtonDenyRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ButtonIconRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ButtonIconRuntime.Generated.cs">
-      <DependentUpon>ButtonIconRuntime.cs</DependentUpon>
-    </Compile>
+    <Compile Include="GumRuntimes\Controls\ButtonCloseRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ButtonConfirmRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ButtonDenyRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ButtonIconRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\Controls\ButtonSpriteRuntime.cs" />
     <Compile Include="GumRuntimes\Controls\ButtonSpriteRuntime.Generated.cs">
       <DependentUpon>ButtonSpriteRuntime.cs</DependentUpon>
     </Compile>
-    <Compile Include="GumRuntimes\Controls\ButtonStandardIconRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ButtonStandardIconRuntime.Generated.cs">
-      <DependentUpon>ButtonStandardIconRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ButtonStandardRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ButtonStandardRuntime.Generated.cs">
-      <DependentUpon>ButtonStandardRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ButtonTabRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ButtonTabRuntime.Generated.cs">
-      <DependentUpon>ButtonTabRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\CheckBoxRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\CheckBoxRuntime.Generated.cs">
-      <DependentUpon>CheckBoxRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ComboBoxRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ComboBoxRuntime.Generated.cs">
-      <DependentUpon>ComboBoxRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\DialogBoxRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\DialogBoxRuntime.Generated.cs">
-      <DependentUpon>DialogBoxRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\InputDeviceSelectionItemRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\InputDeviceSelectionItemRuntime.Generated.cs">
-      <DependentUpon>InputDeviceSelectionItemRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\InputDeviceSelectorRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\InputDeviceSelectorRuntime.Generated.cs">
-      <DependentUpon>InputDeviceSelectorRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.Generated.cs">
-      <DependentUpon>KeyboardKeyRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\KeyboardRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\KeyboardRuntime.Generated.cs">
-      <DependentUpon>KeyboardRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ListBoxItemRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ListBoxItemRuntime.Generated.cs">
-      <DependentUpon>ListBoxItemRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ListBoxRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ListBoxRuntime.Generated.cs">
-      <DependentUpon>ListBoxRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\PasswordBoxRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\PasswordBoxRuntime.Generated.cs">
-      <DependentUpon>PasswordBoxRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\PlayerJoinViewItemRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\PlayerJoinViewItemRuntime.Generated.cs">
-      <DependentUpon>PlayerJoinViewItemRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\PlayerJoinViewRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\PlayerJoinViewRuntime.Generated.cs">
-      <DependentUpon>PlayerJoinViewRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\RadioButtonRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\RadioButtonRuntime.Generated.cs">
-      <DependentUpon>RadioButtonRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ScrollBarRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ScrollBarRuntime.Generated.cs">
-      <DependentUpon>ScrollBarRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ScrollViewerRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ScrollViewerRuntime.Generated.cs">
-      <DependentUpon>ScrollViewerRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\SettingsViewRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\SettingsViewRuntime.Generated.cs">
-      <DependentUpon>SettingsViewRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\SliderRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\SliderRuntime.Generated.cs">
-      <DependentUpon>SliderRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\TextBoxRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\TextBoxRuntime.Generated.cs">
-      <DependentUpon>TextBoxRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\ToastRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\ToastRuntime.Generated.cs">
-      <DependentUpon>ToastRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\TreeViewItemRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\TreeViewItemRuntime.Generated.cs">
-      <DependentUpon>TreeViewItemRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\TreeViewRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\TreeViewRuntime.Generated.cs">
-      <DependentUpon>TreeViewRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\TreeViewToggleRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\TreeViewToggleRuntime.Generated.cs">
-      <DependentUpon>TreeViewToggleRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Controls\UserControlRuntime.cs" />
-    <Compile Include="GumRuntimes\Controls\UserControlRuntime.Generated.cs">
-      <DependentUpon>UserControlRuntime.cs</DependentUpon>
-    </Compile>
+    <Compile Include="GumRuntimes\Controls\ButtonStandardIconRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ButtonStandardRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ButtonTabRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\CheckBoxRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ComboBoxRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\DialogBoxRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\InputDeviceSelectionItemRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\InputDeviceSelectorRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\KeyboardKeyRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\KeyboardRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ListBoxItemRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ListBoxRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\PasswordBoxRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\PlayerJoinViewItemRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\PlayerJoinViewRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\RadioButtonRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ScrollBarRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ScrollViewerRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\SettingsViewRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\SliderRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\TextBoxRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\ToastRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\TreeViewItemRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\TreeViewRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\TreeViewToggleRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Controls\UserControlRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\Custom\DanteThoughtsDialogBoxRuntime.cs" />
     <Compile Include="GumRuntimes\Custom\DanteThoughtsDialogBoxRuntime.Generated.cs">
       <DependentUpon>DanteThoughtsDialogBoxRuntime.cs</DependentUpon>
@@ -948,17 +973,66 @@
     <Compile Include="GumRuntimes\Custom\Rooms\SylviasRoomRuntime.Generated.cs">
       <DependentUpon>SylviasRoomRuntime.cs</DependentUpon>
     </Compile>
-    <Compile Include="GumRuntimes\Custom\UI\Clues\CluesButtonRuntime.cs" />
-    <Compile Include="GumRuntimes\Custom\UI\Clues\CluesButtonRuntime.Generated.cs">
-      <DependentUpon>CluesButtonRuntime.cs</DependentUpon>
+    <Compile Include="GumRuntimes\Custom\UI\BookBackButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\BookBackButtonRuntime.Generated.cs">
+      <DependentUpon>BookBackButtonRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\BookTextRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\BookTextRuntime.Generated.cs">
+      <DependentUpon>BookTextRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\Custom\UI\Clues\CluesPanelRuntime.cs" />
     <Compile Include="GumRuntimes\Custom\UI\Clues\CluesPanelRuntime.Generated.cs">
       <DependentUpon>CluesPanelRuntime.cs</DependentUpon>
     </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\ArthurDetailsRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\ArthurDetailsRuntime.Generated.cs">
+      <DependentUpon>ArthurDetailsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\BeatriceDetailsRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\DanteDetailsRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\DanteDetailsRuntime.Generated.cs">
+      <DependentUpon>DanteDetailsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\DimitriDetailsRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\DimitriDetailsRuntime.Generated.cs">
+      <DependentUpon>DimitriDetailsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\GatsbyDetailsRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\GatsbyDetailsRuntime.Generated.cs">
+      <DependentUpon>GatsbyDetailsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\PaulineDetailsRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\PaulineDetailsRuntime.Generated.cs">
+      <DependentUpon>PaulineDetailsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\PercivalDetailsRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\PercivalDetailsRuntime.Generated.cs">
+      <DependentUpon>PercivalDetailsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\SylviaDetailsRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DetailsPages\SylviaDetailsRuntime.Generated.cs">
+      <DependentUpon>SylviaDetailsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DogDetailsRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DogDetailsRuntime.Generated.cs">
+      <DependentUpon>DogDetailsRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DogsHubPageRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\Ui\Dogs\DogsHubPageRuntime.Generated.cs">
+      <DependentUpon>DogsHubPageRuntime.cs</DependentUpon>
+    </Compile>
     <Compile Include="GumRuntimes\Custom\UI\Dogs\DogsPanelRuntime.cs" />
     <Compile Include="GumRuntimes\Custom\UI\Dogs\DogsPanelRuntime.Generated.cs">
       <DependentUpon>DogsPanelRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\Dogs\TestComponentRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\Dogs\TestComponentRuntime.Generated.cs">
+      <DependentUpon>TestComponentRuntime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumRuntimes\Custom\UI\DrawingButtonRuntime.cs" />
+    <Compile Include="GumRuntimes\Custom\UI\DrawingButtonRuntime.Generated.cs">
+      <DependentUpon>DrawingButtonRuntime.cs</DependentUpon>
     </Compile>
     <Compile Include="GumRuntimes\Custom\UI\JournalBackgroundRuntime.cs" />
     <Compile Include="GumRuntimes\Custom\UI\JournalBackgroundRuntime.Generated.cs">
@@ -980,42 +1054,15 @@
     <Compile Include="GumRuntimes\Custom\UI\Map\MapPanelRuntime.Generated.cs">
       <DependentUpon>MapPanelRuntime.cs</DependentUpon>
     </Compile>
-    <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.Generated.cs">
-      <DependentUpon>CautionLinesRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Elements\DividerHorizontalRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\DividerHorizontalRuntime.Generated.cs">
-      <DependentUpon>DividerHorizontalRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Elements\DividerRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\DividerRuntime.Generated.cs">
-      <DependentUpon>DividerRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Elements\DividerVerticalRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\DividerVerticalRuntime.Generated.cs">
-      <DependentUpon>DividerVerticalRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Elements\IconRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\IconRuntime.Generated.cs">
-      <DependentUpon>IconRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Elements\LabelRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\LabelRuntime.Generated.cs">
-      <DependentUpon>LabelRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Elements\PercentBarIconRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\PercentBarIconRuntime.Generated.cs">
-      <DependentUpon>PercentBarIconRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Elements\PercentBarRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\PercentBarRuntime.Generated.cs">
-      <DependentUpon>PercentBarRuntime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GumRuntimes\Elements\VerticalLinesRuntime.cs" />
-    <Compile Include="GumRuntimes\Elements\VerticalLinesRuntime.Generated.cs">
-      <DependentUpon>VerticalLinesRuntime.cs</DependentUpon>
-    </Compile>
+    <Compile Include="GumRuntimes\Elements\CautionLinesRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Elements\DividerHorizontalRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Elements\DividerRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Elements\DividerVerticalRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Elements\IconRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Elements\LabelRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Elements\PercentBarIconRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Elements\PercentBarRuntime.Generated.cs" />
+    <Compile Include="GumRuntimes\Elements\VerticalLinesRuntime.Generated.cs" />
     <Compile Include="GumRuntimes\GameScreenGumRuntime.cs" />
     <Compile Include="GumRuntimes\GameScreenGumRuntime.Generated.cs">
       <DependentUpon>GameScreenGumRuntime.cs</DependentUpon>

@@ -64,7 +64,7 @@
       "ProjectsToExcludeFrom": []
     },
     {
-      "Name": "Sounds/TurnPage.wav",
+      "Name": "GlobalContent/SoundEffects/TurnPage.wav",
       "IsSharedStatic": true,
       "DestroyOnUnload": false,
       "HasPublicProperty": true,
@@ -72,6 +72,13 @@
     },
     {
       "Name": "GlobalContent/DoorClose.wav",
+      "IsSharedStatic": true,
+      "DestroyOnUnload": false,
+      "HasPublicProperty": true,
+      "ProjectsToExcludeFrom": []
+    },
+    {
+      "Name": "GlobalContent/SoundEffects/HoverDrawing.wav",
       "IsSharedStatic": true,
       "DestroyOnUnload": false,
       "HasPublicProperty": true,

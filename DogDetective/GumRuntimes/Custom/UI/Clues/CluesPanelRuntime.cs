@@ -16,16 +16,18 @@ public partial class CluesPanelRuntime
             PreviousActiveCluesPageState = CurrentActiveCluesPageState;
         };
 
-        KnifeButton.Click        += _ => CurrentActiveCluesPageState = ActiveCluesPage.Knife;
-        BloodstainsButton.Click  += _ => CurrentActiveCluesPageState = ActiveCluesPage.Bloodstain;
-        BookButton.Click         += _ => CurrentActiveCluesPageState = ActiveCluesPage.Book;
-        EnvelopeButton.Click     += _ => CurrentActiveCluesPageState = ActiveCluesPage.Envelope;
-        FabricButton.Click       += _ => CurrentActiveCluesPageState = ActiveCluesPage.Fabric;
-        FileButton.Click         += _ => CurrentActiveCluesPageState = ActiveCluesPage.File;
-        FlowerButton.Click       += _ => CurrentActiveCluesPageState = ActiveCluesPage.Flower;
-        FoxglovePageButton.Click += _ => CurrentActiveCluesPageState = ActiveCluesPage.FoxglovePage;
-        GlassButton.Click        += _ => CurrentActiveCluesPageState = ActiveCluesPage.Glass;
-        WoundButton.Click        += _ => CurrentActiveCluesPageState = ActiveCluesPage.Wound;
+        KnifeButtonClick        += _ => CurrentActiveCluesPageState = ActiveCluesPage.Knife;
+        BloodstainButtonClick   += _ => CurrentActiveCluesPageState = ActiveCluesPage.Bloodstain;
+        BookButtonClick         += _ => CurrentActiveCluesPageState = ActiveCluesPage.Book;
+        EnvelopeButtonClick     += _ => CurrentActiveCluesPageState = ActiveCluesPage.Envelope;
+        FabricButtonClick       += _ => CurrentActiveCluesPageState = ActiveCluesPage.Fabric;
+        FileButtonClick         += _ => CurrentActiveCluesPageState = ActiveCluesPage.File;
+        FlowerButtonClick       += _ => CurrentActiveCluesPageState = ActiveCluesPage.Flower;
+        FoxglovePageButtonClick += _ => CurrentActiveCluesPageState = ActiveCluesPage.FoxglovePage;
+        GlassButtonClick        += _ => CurrentActiveCluesPageState = ActiveCluesPage.Glass;
+        WoundButtonClick        += _ => CurrentActiveCluesPageState = ActiveCluesPage.Wound;
+        
+        BookBackButtonInstanceClick += _ => CurrentActiveCluesPageState = ActiveCluesPage.None;
     }
 
     private ActiveCluesPage? PreviousActiveCluesPageState { get; set; }
