@@ -783,12 +783,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>Main</Type>
-      <Name>MainUiPanelInstance.MainState</Name>
-      <Value xsi:type="xsd:string">Dogs</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>float</Type>
       <Name>PaulineButton.Height</Name>
       <Value xsi:type="xsd:float">50</Value>
@@ -1076,7 +1070,7 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance.Y</Name>
-      <Value xsi:type="xsd:float">210</Value>
+      <Value xsi:type="xsd:float">184</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1113,7 +1107,7 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance1.Y</Name>
-      <Value xsi:type="xsd:float">210</Value>
+      <Value xsi:type="xsd:float">184</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1150,7 +1144,7 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance2.Y</Name>
-      <Value xsi:type="xsd:float">210</Value>
+      <Value xsi:type="xsd:float">184</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1187,7 +1181,7 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance3.Y</Name>
-      <Value xsi:type="xsd:float">210</Value>
+      <Value xsi:type="xsd:float">184</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1224,7 +1218,7 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance4.Y</Name>
-      <Value xsi:type="xsd:float">210</Value>
+      <Value xsi:type="xsd:float">184</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1261,7 +1255,7 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance5.Y</Name>
-      <Value xsi:type="xsd:float">210</Value>
+      <Value xsi:type="xsd:float">184</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1298,7 +1292,7 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance6.Y</Name>
-      <Value xsi:type="xsd:float">210</Value>
+      <Value xsi:type="xsd:float">184</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1335,7 +1329,7 @@
     <Variable>
       <Type>float</Type>
       <Name>SpriteInstance7.Y</Name>
-      <Value xsi:type="xsd:float">210</Value>
+      <Value xsi:type="xsd:float">184</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1526,9 +1520,33 @@
     <State>
       <Name>None</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">697</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-479</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">235</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-485</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1544,9 +1562,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-705</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-454</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-706</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-47</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1556,9 +1598,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-284</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-490</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-36</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1568,9 +1634,51 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">100</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">6</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">45</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">225</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-30</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">710</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-30</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1583,9 +1691,33 @@
     <State>
       <Name>Arthur</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">662</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-566</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">205</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-560</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1601,9 +1733,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-723</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-513</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-700</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1613,9 +1769,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-561</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-272</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-51</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1625,9 +1805,52 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">3</Value>
+        <Category>Dimensions</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">660</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">236</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-66</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1640,9 +1863,33 @@
     <State>
       <Name>Beatrice</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">662</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-566</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">205</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-560</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1658,9 +1905,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-723</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-513</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-700</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1670,9 +1941,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-561</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-272</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-51</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1682,9 +1977,52 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">3</Value>
+        <Category>Dimensions</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">660</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">236</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-66</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1697,9 +2035,33 @@
     <State>
       <Name>Dante</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">662</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-566</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">205</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-560</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1715,9 +2077,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-723</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-513</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-700</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1727,9 +2113,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-561</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-272</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-51</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1739,9 +2149,52 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">3</Value>
+        <Category>Dimensions</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">660</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">236</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-66</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1754,9 +2207,33 @@
     <State>
       <Name>Dimitri</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">662</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-566</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">205</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-560</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1772,9 +2249,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-723</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-513</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-700</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1784,9 +2285,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-561</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-272</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-51</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1796,9 +2321,52 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">3</Value>
+        <Category>Dimensions</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">660</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">236</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-66</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1811,9 +2379,33 @@
     <State>
       <Name>Gatsby</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">662</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-566</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">205</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-560</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1829,9 +2421,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-723</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-513</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-700</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1841,9 +2457,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-561</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-272</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-51</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1853,9 +2493,52 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">3</Value>
+        <Category>Dimensions</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">660</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">236</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-66</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1868,9 +2551,33 @@
     <State>
       <Name>Pauline</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">662</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-566</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">205</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-560</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1886,9 +2593,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-723</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-513</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-700</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1898,9 +2629,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-561</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-272</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-51</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1910,9 +2665,52 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">3</Value>
+        <Category>Dimensions</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">660</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">236</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-66</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1925,9 +2723,33 @@
     <State>
       <Name>Percival</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">662</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-566</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">205</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-560</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1943,9 +2765,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-723</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-513</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-700</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1955,9 +2801,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-561</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-272</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-51</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1967,9 +2837,52 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">3</Value>
+        <Category>Dimensions</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">660</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">true</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">236</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-66</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -1982,9 +2895,33 @@
     <State>
       <Name>Sylvia</Name>
       <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.X</Name>
+        <Value xsi:type="xsd:float">662</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>ArthurButton.Y</Name>
+        <Value xsi:type="xsd:float">-566</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>ArthurDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.X</Name>
+        <Value xsi:type="xsd:float">205</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>BeatriceButton.Y</Name>
+        <Value xsi:type="xsd:float">-560</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -2000,9 +2937,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.X</Name>
+        <Value xsi:type="xsd:float">-723</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DanteButton.Y</Name>
+        <Value xsi:type="xsd:float">-513</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>DanteDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.X</Name>
+        <Value xsi:type="xsd:float">-700</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>DimitriButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -2012,9 +2973,33 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.X</Name>
+        <Value xsi:type="xsd:float">-291</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>GatsbyButton.Y</Name>
+        <Value xsi:type="xsd:float">-561</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>GatsbyDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.X</Name>
+        <Value xsi:type="xsd:float">-272</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PaulineButton.Y</Name>
+        <Value xsi:type="xsd:float">-51</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -2024,9 +3009,52 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Height</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>DimensionUnitType</Type>
+        <Name>PercivalButton.HeightUnits</Name>
+        <Value xsi:type="xsd:int">3</Value>
+        <Category>Dimensions</Category>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Width</Name>
+        <Value xsi:type="xsd:float">50</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.X</Name>
+        <Value xsi:type="xsd:float">660</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>PercivalButton.Y</Name>
+        <Value xsi:type="xsd:float">-61</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
         <Type>bool</Type>
         <Name>PercivalDetails.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.X</Name>
+        <Value xsi:type="xsd:float">236</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>float</Type>
+        <Name>SylviaButton.Y</Name>
+        <Value xsi:type="xsd:float">-66</Value>
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
@@ -2131,11 +3159,6 @@
   <Instance>
     <Name>SylviaDetails</Name>
     <BaseType>Container</BaseType>
-    <DefinedByBase>false</DefinedByBase>
-  </Instance>
-  <Instance>
-    <Name>MainUiPanelInstance</Name>
-    <BaseType>Custom/UI/Main/MainUiPanel</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Instance>

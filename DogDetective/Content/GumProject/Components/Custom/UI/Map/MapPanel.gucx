@@ -210,12 +210,6 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
-      <Type>Main</Type>
-      <Name>MainUiPanelInstance.MainState</Name>
-      <Value xsi:type="xsd:string">Map</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
       <Type>float</Type>
       <Name>MapBackground.Height</Name>
       <Value xsi:type="xsd:float">100</Value>
@@ -455,11 +449,6 @@
   <Instance>
     <Name>MainEntranceButton</Name>
     <BaseType>Custom/UI/Map/MapButton</BaseType>
-    <DefinedByBase>false</DefinedByBase>
-  </Instance>
-  <Instance>
-    <Name>MainUiPanelInstance</Name>
-    <BaseType>Custom/UI/Main/MainUiPanel</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
   <Behaviors />

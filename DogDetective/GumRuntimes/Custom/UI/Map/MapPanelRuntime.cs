@@ -21,9 +21,6 @@ public partial class MapPanelRuntime
         CreateRoomButtonHandler(PercivalsRoomButton, GameScreenGumRuntime.CurrentRoom.PercivalsRoom, gumScreen);
         CreateRoomButtonHandler(StudyButton,         GameScreenGumRuntime.CurrentRoom.Study,         gumScreen);
         CreateRoomButtonHandler(MasterBedroomButton, GameScreenGumRuntime.CurrentRoom.SylviasRoom,   gumScreen);
-
-        MainUiPanelInstance.InitializeMenuButtons(gumScreen);
-        MainUiPanelInstance.MapBackButton.Click += _ => gumScreen.CurrentActiveMenuState = GameScreenGumRuntime.ActiveMenu.None;
     }
 
     private void CreateRoomButtonHandler(

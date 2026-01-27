@@ -2051,6 +2051,307 @@
         "ElementType": "Components",
         "EventType": 7,
         "TimestampUtc": "2026-01-26T03:17:01.375463Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:44:22.9363929Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton2",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:44:23.3400106Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton3",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:44:23.7615535Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton4",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:44:24.2111867Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton5",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:44:24.5906265Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton6",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:44:24.9667779Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton7",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:44:25.3405394Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).GlassButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:44:59.0628459Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FabricButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton2",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:45:11.8927516Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FileButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton3",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:45:28.4689358Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FlowerButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton4",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:45:40.5350599Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).EnvelopeButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton5",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:46:03.0373362Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).BloodstainsButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton6",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:46:26.1083673Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).KnifeButton7",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:46:36.4377564Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).PageButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:46:40.0873133Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).BookButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:46:50.3041744Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).BookButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T16:46:51.4673862Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).WoundButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).BookButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T16:47:06.5928672Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).ClueDetails",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T17:06:46.8167331Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).KnifeDetails",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T17:07:32.2448813Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).SpriteInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T17:07:43.285941Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).TextInstance",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-26T17:08:54.9387282Z"
+      },
+      {
+        "NewName": "FoxglovePage",
+        "OldName": "Page",
+        "ElementType": "Components",
+        "EventType": 3,
+        "TimestampUtc": "2026-01-26T17:12:38.2902997Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1109171Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1119568Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1127766Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1136373Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1145792Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1153382Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.116035Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1167387Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1174792Z"
+      },
+      {
+        "NewName": "Custom/UI/Clues/CluesPanel (Container).FoxglovePageButton",
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).PageButton",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-26T17:12:44.1182369Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Dogs/DogsPanel (Container).Custom/UI/Main/MainUiPanel MainUiPanelInstance in Custom/UI/Dogs/DogsPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-27T17:46:33.681432Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Clues/CluesPanel (Container).Custom/UI/Main/MainUiPanel MainUiPanelInstance in Custom/UI/Clues/CluesPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-27T17:46:41.4002636Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Map/MapPanel (Container).Custom/UI/Main/MainUiPanel MainUiPanelInstance in Custom/UI/Map/MapPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-27T17:46:45.9645415Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).Custom/UI/Main/MainUiPanelButton MapBackButton in Custom/UI/Main/MainUiPanel (Container)",
+        "ElementType": "Components",
+        "EventType": 6,
+        "TimestampUtc": "2026-01-27T17:58:25.6081224Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton1",
+        "OldName": null,
+        "ElementType": "Components",
+        "EventType": 5,
+        "TimestampUtc": "2026-01-27T17:58:27.2008101Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-27T17:58:32.4835624Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-27T17:58:32.4846599Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-27T17:58:32.4854206Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-27T17:58:32.4863951Z"
+      },
+      {
+        "NewName": "Custom/UI/Main/MainUiPanel (Container).MapBackButton",
+        "OldName": "Custom/UI/Main/MainUiPanel (Container).CluesBackButton1",
+        "ElementType": "Components",
+        "EventType": 7,
+        "TimestampUtc": "2026-01-27T17:58:32.4870836Z"
       }
     ]
   }

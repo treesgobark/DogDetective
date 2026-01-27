@@ -16,6 +16,12 @@
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
+      <Type>ActiveCluesPage</Type>
+      <Name>CluesPanelInstance.ActiveCluesPageState</Name>
+      <Value xsi:type="xsd:string">None</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
       <Type>bool</Type>
       <Name>CluesPanelInstance.Visible</Name>
       <Value xsi:type="xsd:boolean">false</Value>
@@ -43,6 +49,12 @@
       <Type>string</Type>
       <Name>DiningRoomInstance.Parent</Name>
       <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>ActiveDogPage</Type>
+      <Name>DogsPanelInstance.ActiveDogPageState</Name>
+      <Value xsi:type="xsd:string">None</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -91,6 +103,12 @@
       <Type>string</Type>
       <Name>MainEntranceNightInstance.Parent</Name>
       <Value xsi:type="xsd:string">RoomContainer</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>Main</Type>
+      <Name>MainUiPanelInstance.MainState</Name>
+      <Value xsi:type="xsd:string">Default</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -1115,21 +1133,15 @@
         <SetsValue>true</SetsValue>
       </Variable>
       <Variable>
-        <Type>Main</Type>
-        <Name>MainUiPanelInstance.MainState</Name>
-        <Value xsi:type="xsd:string">Default</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>bool</Type>
-        <Name>MainUiPanelInstance.Visible</Name>
-        <Value xsi:type="xsd:boolean">true</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
         <Type>bool</Type>
         <Name>MapPanelInstance.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <SetsValue>true</SetsValue>
+      </Variable>
+      <Variable>
+        <Type>Main</Type>
+        <Name>MainUiPanelInstance.MainState</Name>
+        <Value xsi:type="xsd:string">Default</Value>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>
@@ -1159,12 +1171,6 @@
         <Value xsi:type="xsd:boolean">true</Value>
         <SetsValue>true</SetsValue>
       </Variable>
-      <Variable>
-        <Type>bool</Type>
-        <Name>MainUiPanelInstance.Visible</Name>
-        <Value xsi:type="xsd:boolean">false</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
     </State>
     <State>
       <Name>Clues</Name>
@@ -1192,12 +1198,6 @@
         <Value xsi:type="xsd:boolean">false</Value>
         <SetsValue>true</SetsValue>
       </Variable>
-      <Variable>
-        <Type>bool</Type>
-        <Name>MainUiPanelInstance.Visible</Name>
-        <Value xsi:type="xsd:boolean">false</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
     </State>
     <State>
       <Name>Dogs</Name>
@@ -1222,12 +1222,6 @@
       <Variable>
         <Type>bool</Type>
         <Name>MapPanelInstance.Visible</Name>
-        <Value xsi:type="xsd:boolean">false</Value>
-        <SetsValue>true</SetsValue>
-      </Variable>
-      <Variable>
-        <Type>bool</Type>
-        <Name>MainUiPanelInstance.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
         <SetsValue>true</SetsValue>
       </Variable>
@@ -1309,26 +1303,31 @@
     <Name>RoomContainer</Name>
     <BaseType>Container</BaseType>
     <DefinedByBase>false</DefinedByBase>
+    <Locked>true</Locked>
   </Instance>
   <Instance>
     <Name>MapPanelInstance</Name>
     <BaseType>Custom/UI/Map/MapPanel</BaseType>
     <DefinedByBase>false</DefinedByBase>
+    <Locked>true</Locked>
   </Instance>
   <Instance>
     <Name>CluesPanelInstance</Name>
     <BaseType>Custom/UI/Clues/CluesPanel</BaseType>
     <DefinedByBase>false</DefinedByBase>
+    <Locked>true</Locked>
   </Instance>
   <Instance>
     <Name>DogsPanelInstance</Name>
     <BaseType>Custom/UI/Dogs/DogsPanel</BaseType>
     <DefinedByBase>false</DefinedByBase>
+    <Locked>true</Locked>
   </Instance>
   <Instance>
     <Name>MainUiPanelInstance</Name>
     <BaseType>Custom/UI/Main/MainUiPanel</BaseType>
     <DefinedByBase>false</DefinedByBase>
+    <Locked>true</Locked>
   </Instance>
   <Instance>
     <Name>DanteThoughtsDialogBoxInstance</Name>

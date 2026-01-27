@@ -163,7 +163,7 @@
     <Variable>
       <Type>float</Type>
       <Name>ContinueIndicatorInstance.X</Name>
-      <Value xsi:type="xsd:float">-8</Value>
+      <Value xsi:type="xsd:float">-12</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -181,7 +181,7 @@
     <Variable>
       <Type>float</Type>
       <Name>ContinueIndicatorInstance.Y</Name>
-      <Value xsi:type="xsd:float">-8</Value>
+      <Value xsi:type="xsd:float">-12</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>

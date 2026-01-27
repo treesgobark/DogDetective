@@ -14,13 +14,7 @@
       <IsFile>true</IsFile>
       <Type>string</Type>
       <Name>CluesBackButton.SpriteInstanceSourceFile</Name>
-      <Value xsi:type="xsd:string">..\Images\UI\BackButton.png</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>bool</Type>
-      <Name>CluesBackButton.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Value xsi:type="xsd:string">..\Images\UI\CluesExitButton.png</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -39,13 +33,7 @@
       <IsFile>true</IsFile>
       <Type>string</Type>
       <Name>DogsBackButton.SpriteInstanceSourceFile</Name>
-      <Value xsi:type="xsd:string">..\Images\UI\BackButton.png</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>bool</Type>
-      <Name>DogsBackButton.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Value xsi:type="xsd:string">..\Images\UI\SuspectsExitButton.png</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -81,13 +69,7 @@
       <IsFile>true</IsFile>
       <Type>string</Type>
       <Name>MapBackButton.SpriteInstanceSourceFile</Name>
-      <Value xsi:type="xsd:string">..\Images\UI\BackButton.png</Value>
-      <SetsValue>true</SetsValue>
-    </Variable>
-    <Variable>
-      <Type>bool</Type>
-      <Name>MapBackButton.Visible</Name>
-      <Value xsi:type="xsd:boolean">false</Value>
+      <Value xsi:type="xsd:string">..\Images\UI\MapExitButton.png</Value>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -222,6 +204,7 @@
         <Type>bool</Type>
         <Name>MapButton.Visible</Name>
         <Value xsi:type="xsd:boolean">false</Value>
+        <Category>States and Visibility</Category>
         <SetsValue>true</SetsValue>
       </Variable>
     </State>

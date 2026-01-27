@@ -17,5 +17,9 @@ public partial class MainUiPanelRuntime
         MapButton.Click   += _ => gumScreen.CurrentActiveMenuState = GameScreenGumRuntime.ActiveMenu.Map;
         CluesButton.Click += _ => gumScreen.CurrentActiveMenuState = GameScreenGumRuntime.ActiveMenu.Clues;
         DogsButton.Click  += _ => gumScreen.CurrentActiveMenuState = GameScreenGumRuntime.ActiveMenu.Dogs;
+        
+        MapBackButton.Click   += _ => gumScreen.CurrentActiveMenuState = GameScreenGumRuntime.ActiveMenu.None;
+        CluesBackButton.Click += _ => gumScreen.CurrentActiveMenuState = GameScreenGumRuntime.ActiveMenu.None;
+        DogsBackButton.Click  += _ => gumScreen.CurrentActiveMenuState = GameScreenGumRuntime.ActiveMenu.None;
     }
 }

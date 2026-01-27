@@ -13,12 +13,10 @@ public partial class GameScreenGumRuntime
         MainUiPanelInstance.InitializeMenuButtons(this);
         
         MapPanelInstance.InitializeButtons(this);
-        CluesPanelInstance.InitializeButtons(this);
-        DogsPanelInstance.InitializeButtons(this);
 
         PropertyChanged += (sender, args) =>
         {
-            if (args.PropertyName == "CurrentActiveMenuState" && CurrentActiveMenuState is not null)
+            if (args.PropertyName == nameof(CurrentActiveMenuState) && CurrentActiveMenuState is not null)
             {
                 SoundEffect sound = (PreviousMenuState, CurrentActiveMenuState) switch
                 {

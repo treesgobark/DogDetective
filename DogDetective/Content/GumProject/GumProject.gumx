@@ -45,7 +45,7 @@
   <ShowCanvasOutline>true</ShowCanvasOutline>
   <ShowRuler>true</ShowRuler>
   <ShowCheckerBackground>true</ShowCheckerBackground>
-  <TextureFilter>Point</TextureFilter>
+  <TextureFilter>Linear</TextureFilter>
   <ConvertVariablesOnUnitTypeChange>false</ConvertVariablesOnUnitTypeChange>
   <RestrictToUnitValues>true</RestrictToUnitValues>
   <RestrictFileNamesForAndroid>false</RestrictFileNamesForAndroid>

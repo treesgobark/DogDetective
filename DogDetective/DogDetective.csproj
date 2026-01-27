@@ -360,6 +360,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Font28Arial_Bold_0</Name>
     </None>
+    <None Include="Content\GumProject\FontCache\Font48Ink_Free.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font48Ink_Free</Name>
+    </None>
+    <None Include="Content\GumProject\FontCache\Font48Ink_Free_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Font48Ink_Free_0</Name>
+    </None>
     <None Include="Content\GumProject\GumProject.gumx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>GumProject</Name>
@@ -427,6 +435,42 @@
     <None Include="Content\Images\Clues\Menu Buttons\Bloody Kitchen Knife.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Bloody Kitchen Knife</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Broken Wine Glass.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Broken Wine Glass</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Burnt Cloth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Burnt Cloth</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Case File.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Case File</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Dried Foxglove.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Dried Foxglove</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Empty Open Envelope.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Empty Open Envelope</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Floor And Chair Bloodstains.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Floor And Chair Bloodstains</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Foxglove Info Page.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Foxglove Info Page</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Gardening Book.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Gardening Book</Name>
+    </None>
+    <None Include="Content\Images\Clues\Menu Buttons\Gatsby's Wound Photo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>Gatsby's Wound Photo</Name>
     </None>
     <None Include="Content\Images\Map Stuff\Arthur's Room.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -596,6 +640,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>CluesButton</Name>
     </None>
+    <None Include="Content\Images\UI\CluesExitButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>CluesExitButton</Name>
+    </None>
     <None Include="Content\Images\UI\Cursor.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Cursor</Name>
@@ -603,6 +651,10 @@
     <None Include="Content\Images\UI\MapButton.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>MapButton</Name>
+    </None>
+    <None Include="Content\Images\UI\MapExitButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>MapExitButton</Name>
     </None>
     <None Include="Content\Images\UI\SlicedBox.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -619,6 +671,10 @@
     <None Include="Content\Images\UI\SuspectsButton.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>SuspectsButton</Name>
+    </None>
+    <None Include="Content\Images\UI\SuspectsExitButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>SuspectsExitButton</Name>
     </None>
     <None Include="Content\Sounds\TurnPage.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -1053,6 +1109,9 @@
     <ProjectReference Include="../../Gum/GumCore/GumCoreXnaPc/GumCore.DesktopGlNet6/GumCore.DesktopGlNet6.csproj">
       <Name>GumCore.DesktopGlNet6</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilities\" />
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />
